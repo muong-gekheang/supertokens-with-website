@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning>
         <SuperTokensInit /> {/* ← initializes SuperTokens on client */}
         {children}
       </body>

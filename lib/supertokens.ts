@@ -21,7 +21,9 @@ export function initSuperTokens() {
           }
         },
       }),
+
       ThirdParty.init(),
     ],
+    clientType: "web",
   });
 }
