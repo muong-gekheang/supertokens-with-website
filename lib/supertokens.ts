@@ -11,7 +11,7 @@ export function initSuperTokens() {
   initialized = true;
 
   SuperTokens.init({
-    appInfo,
+    appInfo,   
     recipeList: [
       Session.init({
         tokenTransferMethod: "cookie",
