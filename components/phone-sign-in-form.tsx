@@ -28,7 +28,7 @@ export default function PhoneSignInForm() {
       const data = await res.json();
 
       if (data.status === "OK") {
-        window.location.href = "/dashboard"; // redirect after login
+        // window.location.href = "/dashboard"; // redirect after login
       } else {
         setError(data.message || "Invalid phone or password");
       }
