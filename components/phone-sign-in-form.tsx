@@ -4,7 +4,7 @@ import { useState } from "react";
 
 // const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3036";
 
-const API_BASE = "https://dev2.power-hub.app";
+const API_BASE = "https://beta.power-hub.app";
 
 export default function PhoneSignInForm() {
   const [phone, setPhone] = useState("");
